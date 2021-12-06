@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tution Teacher Finding website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  		<!-- Brand/logo -->
+  		<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" style="width:100px;"></a>
+
+ 		 <!-- collaps button -->
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+		  	<span class="navbar-toggler-icon"></span>
+		  </button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				  	<!-- Links -->
+					 <ul class="navbar-nav mx-auto">
+						    <li class="nav-item">
+							      <a class="nav-link" href="index.html">Home</a>
+						    </li>
+						    <li class="nav-item">
+							      <a class="nav-link" href="contact.html">Contact</a>
+						    </li>
+						    <li class="nav-item">
+							      <a class="nav-link" href="about.html">About</a>
+						    </li>
+						    <li class="nav-item dropdown active">
+							      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Account</a>
+								      <div class="dropdown-menu">
+								        <a class="dropdown-item" href="login.html">Login</a>
+								        <a class="dropdown-item" href="signup.html">Sign Up</a>
+								      </div>
+							</li>
+							<li class="nav-item">
+                  			  <a class="nav-link" href="tutor.html">Become a Tutor</a>
+             			   </li>
+					</ul>
+						  <form class="form-inline" action="#">
+						    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+						    <button class="btn btn-danger" type="submit">Search</button>
+						  </form>				  	
+				</div>  
+</nav>
+
+<!--- sign up --->
+<div class="container-fluid">
+	<div class="row justify-content-center">
+
+		<div class="col-sm-6 col-md-3">
+			<h4 class="text-center">Sign Up</h4>
+			<form class="form-container">
+			  <div class="form-group">
+			    <label for="email">Email address:</label>
+			    <input type="email" class="form-control" placeholder="Enter email" id="email">
+			  </div>
+			  <div class="form-group">
+			    <label for="pwd">Password:</label>
+			    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+			  </div>
+			  <div>
+			    <label for="pwd">Confirm Password:</label>
+			    <input type="password" class="form-control" placeholder="Re-enter password" id="pwd">
+			  </div>
+			  <div>
+			    <label for="phn">Contact Number:</label>
+			    <input type="tel" class="form-control" placeholder="Example: 9841585654" id="phn">
+			  </div>
+			<div class="supbtn">
+			  <button type="submit" class="btn btn-outline-secondary btn-block">Submit</button>
+			</div>
+			</form>
+		</div>		
+	</div>	
+</div>
+ 
+<!-- footer -->
+<footer>
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<h5>Contact Us</h5>
+				<hr class="border"></hr>
+				<p>+977 9841023456</p>
+				<p>easyedu@gmail.com</p>
+				<p>Dillibazar - 23</p>
+			</div>
+			<div class="col-md-4">
+				<h5>Our Active hours</h5>
+				<hr class="border"></hr>
+				<p>Monday: 9am - 5pm</p>
+				<p>Saturday: 10am - 4pm</p>
+				<p>Sunday: Colsed</p>
+			</div>
+			<div class="col-md-4">
+				<h5>Service area</h5>
+				<hr class="border"></hr>
+				<p>Kathmandu</p>
+				<p>Bhaktapur</p>
+				<p>Lalitpur</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+</body>
+</html>

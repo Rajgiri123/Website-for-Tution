@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tution Teacher Finding website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  		<!-- Brand/logo -->
+  		<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" style="width:100px;"></a>
+
+ 		 <!-- collaps button -->
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+		  	<span class="navbar-toggler-icon"></span>
+		  </button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				  	<!-- Links -->
+					 <ul class="navbar-nav mx-auto">
+						    <li class="nav-item">
+							      <a class="nav-link" href="index.html">Home</a>
+						    </li>
+						    <li class="nav-item">
+							      <a class="nav-link" href="contact.html">Contact</a>
+						    </li>
+						    <li class="nav-item">
+							      <a class="nav-link" href="about.html">About</a>
+						    </li>
+						    <li class="nav-item dropdown active">
+							      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Account</a>
+								      <div class="dropdown-menu">
+								        <a class="dropdown-item" href="login.html">Login</a>
+								        <a class="dropdown-item" href="signup.html">Sign Up</a>
+								      </div>
+							</li>
+							<li class="nav-item">
+                  			  <a class="nav-link" href="tutor.html">Become a Tutor</a>
+             			   </li>
+					</ul>
+						  <form class="form-inline" action="#">
+						    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+						    <button class="btn btn-danger" type="submit">Search</button>
+						  </form>				  	
+				</div>  
+</nav>
+
+<!--- Become a Tutor --->
+<h4 class="text-center">Become a Tutor</h4>
+<div class="container-fluid">
+	<div class="row justify-content-center">
+		<div class="col-sm-6 col-md-3">
+			<form class="form-container border">
+			  <div class="form-group">
+			  	<h5>Your basic information</h5>
+			    <label for="email">Email address:</label>
+			    <input type="email" class="form-control" placeholder="Enter email" id="email">
+			    <label for="pwd">Password:</label>
+			    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+			    <label for="pwd">Confirm Password:</label>
+			    <input type="password" class="form-control" placeholder="Re-enter password" id="pwd">
+			    <label for="phn">Full Name:</label>
+			    <input type="tel" class="form-control">
+			    <label for="phn">Contact Number:</label>
+			    <input type="tel" class="form-control" placeholder="Example: 9841585654" id="phn">
+			  </div>
+			</form>
+		</div>
+
+		<div class="col-sm-6 col-md-3">
+			<form class="form-container border">
+			  <div class="form-group">
+			  	<h5>A little more about you</h5>
+
+			  	<p>I am a:</p>
+			    <input type="radio" id="defaultRadio" name="example2">
+				<label for="defaultRadio">Male</label>
+				<input type="radio" id="defaultRadio" name="example2">
+				<label for="defaultRadio">Female</label>
+				<p>I am from:</p>
+				<select name="cars" class="custom-select-sm">
+					<option selected>Kathmandu</option>
+					<option value>Bhaktapur</option>
+					<option value>Lalitpur</option>
+					<option value>Biratnagar</option>
+					<option value>Birgunj</option>
+					<option value>Butwal</option>
+					<option value>Dhangadhi</option>
+					<option value>Hetauda</option>
+					<option value>Janakpur</option>
+					<option value>Mahendranagar</option>
+					<option value>Narayanghat</option>
+					<option value>Nepalgunj</option>
+					<option value>Pokhara</option>
+				</select>
+				<p>I have teaching experience of:</p>
+				<select name="cars" class="custom-select-sm">
+					<option selected>- Select a value -</option>
+					<option value>Not Yet</option>
+					<option value>1 Years</option>
+					<option value>2 Years</option>
+					<option value>3 Years</option>
+					<option value>4 Years</option>
+					<option value>5 Years</option>
+					<option value>6 Years</option>
+					<option value>7 Years</option>
+					<option value>8 Years</option>
+					<option value>9 Years</option>
+					<option value>10 Years</option>
+					<option value>10+ Years</option>
+				</select>
+				<p>I prefer teaching at:</p>
+				<select name="cars" class="custom-select-sm">
+					<option selected="selected">Student's home</option>
+					<option value="at my home">My own place</option>
+					<option value="both">Student's home or My own place</option>
+				</select><br>
+			</form>
+		</div>
+	</div>	
+</div>
+
+<div class="container-fluid">
+	<div class="row justify-content-center">
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+			<div class="container mt-3">
+  				<form action="/action_page.php" class="form-container border">
+    			<h5>Profile Picture:</h5>
+    			<input type="file" id="myFile" name="filename2">
+  				</form>
+			</div>
+			<div class="supbtn">
+				<button type="submit" class="btn btn-outline-secondary btn-block">Submit</button>
+			</div>
+		</div>
+	</div>
+</div>
+<br>
+<!-- footer -->
+<footer>
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<h5>Contact Us</h5>
+				<hr class="border"></hr>
+				<p>+977 9841023456</p>
+				<p>easyedu@gmail.com</p>
+				<p>Dillibazar - 23</p>
+			</div>
+			<div class="col-md-4">
+				<h5>Our Active hours</h5>
+				<hr class="border"></hr>
+				<p>Monday: 9am - 5pm</p>
+				<p>Saturday: 10am - 4pm</p>
+				<p>Sunday: Colsed</p>
+			</div>
+			<div class="col-md-4">
+				<h5>Service area</h5>
+				<hr class="border"></hr>
+				<p>Kathmandu</p>
+				<p>Bhaktapur</p>
+				<p>Lalitpur</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+</body>
+</html>
